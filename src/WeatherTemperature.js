@@ -1,4 +1,3 @@
-import { func } from "prop-types";
 import React, { useState } from "react";
 import "./Weather.css";
 
