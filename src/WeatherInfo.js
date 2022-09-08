@@ -14,14 +14,14 @@ export default function WeatherInfo(props) {
     <div className="currentInfo">
       <div className="container">
         <div className="row infoWeatherStyle">
-          <div className="col-md-3 infoWeatherBlock">
+          <div className="col-md-4 infoWeatherBlock">
             <h1>{props.info.city}</h1>
             <h5 id="timeNow">
               <FormatDate date={props.info.date} />
             </h5>
             <h4>{props.info.description} </h4>
           </div>
-          <div className="col-md-3 infoWeatherBlock">
+          <div className="col-md-4 infoWeatherBlock">
             <div className="currentBlock">
               <div className=" currentTemp">
                 <span id="temp">{Math.round(props.info.temperature)}</span>
@@ -54,7 +54,7 @@ export default function WeatherInfo(props) {
               </div>
             </div>
           </div>
-          <div className="col-md-3 infoWeatherBlock" id="currentIcon">
+          <div className="col-md-4 infoWeatherBlock" id="currentIcon">
             <div className="col">
               <ReactAnimatedWeather
                 icon={defaults.icon}
