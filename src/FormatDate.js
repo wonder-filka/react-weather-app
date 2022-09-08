@@ -20,8 +20,6 @@ export default function FormatDate(props) {
     minutes = `0${minutes}`;
   }
 
-  console.log(day);
-
   return (
     <div>
       {day} {hours}:{minutes}
