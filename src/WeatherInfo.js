@@ -1,15 +1,10 @@
 import React from "react";
-import ReactAnimatedWeather from "react-animated-weather";
 import FormatDate from "./FormatDate";
+import WeatherIcon from "./WeatherIcon";
 import "./Weather.css";
+import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInfo(props) {
-  const defaults = {
-    icon: "CLEAR_DAY",
-    color: "rgb(223, 223, 223)",
-    size: 80,
-    animate: true,
-  };
   return (
     <div className="currentInfo">
       <div className="container">
@@ -23,17 +18,8 @@ export default function WeatherInfo(props) {
           </div>
           <div className="col-md-4 infoWeatherBlock">
             <div className="currentBlock">
-              <div className=" currentTemp">
-                <span id="temp">{Math.round(props.info.temperature)}</span>
-                <span id="units">
-                  <a href="/" className="cel_far" id="cels">
-                    °C
-                  </a>
-                  <span class="cel_far"> | </span>
-                  <a href="/" className="cel_far" id="far">
-                    F
-                  </a>
-                </span>
+              <div className="currentTemp">
+                <WeatherTemperature celsius={props.info.temperature} />
               </div>
               <div className="moreInfo">
                 <ul>
@@ -56,13 +42,7 @@ export default function WeatherInfo(props) {
           </div>
           <div className="col-md-4 infoWeatherBlock" id="currentIcon">
             <div className="col">
-              <ReactAnimatedWeather
-                icon={defaults.icon}
-                color={defaults.color}
-                size={defaults.size}
-                animate={defaults.animate}
-              />
-              {/* <img src={props.info.iconUrl} alt={props.info.description} /> */}
+              <WeatherIcon code={props.info.icon} size={80} />
             </div>
           </div>
         </div>
