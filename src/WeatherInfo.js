@@ -6,7 +6,7 @@ import "./Weather.css";
 export default function WeatherInfo(props) {
   const defaults = {
     icon: "CLEAR_DAY",
-    color: "white",
+    color: "rgb(223, 223, 223)",
     size: 80,
     animate: true,
   };
