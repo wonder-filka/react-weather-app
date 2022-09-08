@@ -16,7 +16,7 @@ export default function App() {
         </a>{" "}
         and{" "}
         <a
-          href="https://github.com/wonder-filka/weather-react"
+          href="https://github.com/wonder-filka/weather-react-app"
           target="_blank"
           rel="noreferrer"
           title="My GitHub"
