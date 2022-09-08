@@ -14,7 +14,7 @@ export default function App() {
         <a href="/" target="_blank" rel="noreferrer">
           Iryna Filonova
         </a>{" "}
-        and{" "}
+        and is{" "}
         <a
           href="https://github.com/wonder-filka/weather-react-app"
           target="_blank"
@@ -22,7 +22,7 @@ export default function App() {
           title="My GitHub"
         >
           {" "}
-          is open-sourced on GitHub
+          open-sourced on GitHub
         </a>{" "}
         and{" "}
         <a href="/" target="_blank">
