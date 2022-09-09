@@ -10,7 +10,7 @@ export default function App() {
       </div>
 
       <footer className="text-center">
-        This project was coded by{" "}
+        This project was coded and designed by{" "}
         <a
           href="https://voluble-druid-922ae0.netlify.app/"
           target="_blank"

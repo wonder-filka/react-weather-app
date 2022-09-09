@@ -58,10 +58,14 @@ body {
 
 footer {
   color: var(--text-color);
+  padding-top: 5em;
 }
 
 footer a {
   color: var(--text-color);
+}
+footer a:hover {
+  color: white;
 }
 
 .App .conteiner {
