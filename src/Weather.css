@@ -21,6 +21,10 @@
   .cel_far {
     font-size: 14px;
   }
+
+  .WeatherForecastDay {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 1100px) {
@@ -31,7 +35,7 @@
     font-size: 14px;
   }
   .currentInfo h4 {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .currentTemp {
@@ -39,7 +43,7 @@
   }
 
   .cel_far {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -73,10 +77,6 @@ footer a {
   color: var(--text-color);
 }
 
-.currentInfo {
-  padding-top: 50px;
-}
-
 .currentInfo .infoWeatherStyle {
   justify-content: space-between;
 }
@@ -89,10 +89,6 @@ footer a {
 
 .currentInfo h1 {
   font-family: "Oswald", sans-serif;
-}
-
-.currentInfo h4 {
-  text-decoration: underline;
 }
 
 #github {
@@ -117,7 +113,7 @@ footer a {
 }
 .cel_far {
   text-align: left;
-
+  font-family: "Lato", sans-serif;
   vertical-align: text-top;
   text-decoration: none;
   color: var(--text-color);
@@ -141,4 +137,8 @@ footer a {
 .dayIcon {
   height: 60px;
   margin: 20px auto;
+}
+
+.ForecastDateTemperature-min {
+  opacity: 0.6;
 }

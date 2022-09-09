@@ -11,7 +11,11 @@ export default function App() {
 
       <footer className="text-center">
         This project was coded by{" "}
-        <a href="/" target="_blank" rel="noreferrer">
+        <a
+          href="https://voluble-druid-922ae0.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
           Iryna Filonova
         </a>{" "}
         and is{" "}
@@ -25,7 +29,7 @@ export default function App() {
           open-sourced on GitHub
         </a>{" "}
         and{" "}
-        <a href="/" target="_blank">
+        <a href="https://netlify.com" target="_blank" rel="noreferrer">
           {" "}
           hosted on Netlify
         </a>
