@@ -3,7 +3,7 @@
   --text-color: rgb(223, 223, 223);
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 992px) {
   .currentInfo h5 {
     font-size: 14px;
   }
@@ -25,9 +25,12 @@
   .WeatherForecastDay {
     font-size: 14px;
   }
+  .App .conteiner {
+    width: 90% !important;
+  }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 992px) {
   .currentInfo .infoWeatherBlock {
     width: 30%;
   }
@@ -44,6 +47,18 @@
 
   .cel_far {
     font-size: 18px;
+  }
+}
+
+@media (max-width: 720px) {
+  .App .conteiner {
+    margin: 50px auto !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .currentInfo .infoWeatherBlock {
+    width: 30%;
   }
 }
 
@@ -145,4 +160,8 @@ footer a:hover {
 
 .ForecastDateTemperature-min {
   opacity: 0.6;
+}
+
+#search-form {
+  width: 100%;
 }
