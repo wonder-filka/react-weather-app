@@ -12,7 +12,7 @@ export default function App() {
       <footer className="text-center">
         This project was coded and designed by{" "}
         <a
-          href="https://voluble-druid-922ae0.netlify.app/"
+          href="https://sensational-cactus-93a152.netlify.app/index.html"
           target="_blank"
           rel="noreferrer"
         >
